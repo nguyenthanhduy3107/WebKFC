@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  min-height: auto;
+}
+nav {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+nav ul li{
+  display: inline-flex;
+}
+nav ul li a{
+  position: relative;
+  padding: 16px 0 5px;
+  margin:0 25px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Audiowide;
+  font-size: 16px;
+}
+nav ul li a:hover{
+  color: tomato;
+}
+nav ul li a:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  -webkit-transform: translateX(-50%) scaleX(0);
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background: rgba(255,255,255,0.9);
+  -webkit-transition: transform 250ms;
+  transition: transform 250ms;
+}
+nav ul li a:hover:after{
+  -webkit-transform: translateX(-50%) scaleX(1);
+  transform: translateX(-50%) scaleX(1);
+}
+.carousel-item{
+  height: 28rem;
+  border-radius: 10px;
+  background: #000;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+.carousel-caption{
+  bottom: 270px;
+
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  min-height: auto;
+}
+nav {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+nav ul li{
+  display: inline-flex;
+}
+nav ul li a{
+  position: relative;
+  padding: 16px 0 5px;
+  margin:0 25px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Audiowide;
+  font-size: 16px;
+}
+nav ul li a:hover{
+  color: tomato;
+}
+nav ul li a:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  -webkit-transform: translateX(-50%) scaleX(0);
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background: rgba(255,255,255,0.9);
+  -webkit-transition: transform 250ms;
+  transition: transform 250ms;
+}
+nav ul li a:hover:after{
+  -webkit-transform: translateX(-50%) scaleX(1);
+  transform: translateX(-50%) scaleX(1);
+}
+.carousel-item{
+  height: 28rem;
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+.carousel-caption{
+  bottom: 270px;
+
+}
+.box-card{
+  margin:  5px 0px 5px;
+  position: relative;
+
+}
+.nav-menu{
+  padding: 0rem 2rem 1rem;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    line-height: 1.5;
+    font-weight: normal;
+}
+.side-bar{
+  padding: 0rem 2rem 1rem;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    line-height: 1.5;
+    font-weight: normal;
+}
+.nav-menu span{
+  display: inline-flex;
+}
+
